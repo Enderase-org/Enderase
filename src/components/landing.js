@@ -1,42 +1,19 @@
 
 import React from 'react';
-import Particles from 'react-tsparticles';
+
 import './Landing.css';
-import myOptions from '../particlesjs-config.json';
+
 import EnderaseSVG from '../assets/Untitled-1.svg'
-console.log(myOptions)
+
 // const options = require('../particlesjs-config.json')
 //  options = JSON.parse(options);
 
-function Landing() {
-    const particlesInit = (main)=>{
-        console.log(main)
-    }
-    const particlesLoaded = (container)=>{
-        console.log(container)
-    }
+function Landing({scrolled}) {
   return (
-    <section className="Landing">
-      <div>
-
-       <Particles id="tsparticles" 
-        init={particlesInit} 
-        loaded={particlesLoaded} 
-       // options={options}//"http://foo.bar/particles.json" 
-       options={myOptions}
-       width="500px"
-       height='500px'
-       style={{
-    
-       }}
-      //  height='600'
-      //  width='400'
-        />
-      </div>
+    <section className="Landing" id="home">
         <div className="headcontainer">
         <img src={EnderaseSVG} height={"500px"} width="800px"/>
         </div>
-
     </section>
   );
 }
