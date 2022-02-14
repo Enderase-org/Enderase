@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Enderase/static/css/main.55078749.css",
+    "main.js": "/Enderase/static/js/main.6dfc5886.js",
+    "static/js/787.10069a06.chunk.js": "/Enderase/static/js/787.10069a06.chunk.js",
+    "static/media/lion.jpg": "/Enderase/static/media/lion.4e74399ddfd88a0e478c.jpg",
+    "static/media/teamedit.jpg": "/Enderase/static/media/teamedit.6098efec709f2422e92a.jpg",
+    "static/media/team3.jpg": "/Enderase/static/media/team3.0f03123b3ae8ec1c772a.jpg",
+    "static/media/team2.jpg": "/Enderase/static/media/team2.5e9cd4483d2057abdf0e.jpg",
+    "static/media/Untitled-1.svg": "/Enderase/static/media/Untitled-1.d7d80de5f65158b90cf18a83215049fe.svg",
+    "static/media/political.png": "/Enderase/static/media/political.1c521ef76ae431c6bea7.png",
+    "static/media/social.png": "/Enderase/static/media/social.388a100279b36c33bfb0.png",
+    "static/media/personal.png": "/Enderase/static/media/personal.5907cb3759d4a8f8b247.png",
+    "static/media/financial.png": "/Enderase/static/media/financial.c11ce8edd96003e1d43f.png",
+    "index.html": "/Enderase/index.html",
+    "main.55078749.css.map": "/Enderase/static/css/main.55078749.css.map",
+    "main.6dfc5886.js.map": "/Enderase/static/js/main.6dfc5886.js.map",
+    "787.10069a06.chunk.js.map": "/Enderase/static/js/787.10069a06.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.55078749.css",
+    "static/js/main.6dfc5886.js"
+  ]
+}
