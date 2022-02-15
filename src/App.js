@@ -12,6 +12,10 @@ import Footer from './components/footer';
 
 import Particles from 'react-tsparticles';
 import myOptions from './particlesjs-config.json';
+
+import { useMediaQuery } from 'react-responsive';
+
+
 function App() {
   const [scrolled,setScrolled] = useState(false);
   useEffect(()=>{
@@ -40,6 +44,10 @@ const onScrolled = (e)=>{
   console.log(e.target.currentScrollY)
  //(e)=>{e.target.currentScrollY
 }
+
+const isTabletDevice = useMediaQuery({
+  query: "(min-width: 700px)",
+});
   return (
     <>
           {
@@ -64,13 +72,13 @@ const onScrolled = (e)=>{
 
     <div className="container" onScroll={onScrolled}>
 
-      <Landing scrolled={scrolled}/>
-      <Navbar scrolled={scrolled} />
+      <Landing scrolled={scrolled} isTabletDevice={isTabletDevice}/>
+      <Navbar scrolled={scrolled} isTabletDevice={isTabletDevice}/>
 
-      <WhatWeDo/>
-      <Team/>
-      <Metrics/>
-      <ContactUs/>
+      <WhatWeDo isTabletDevice={isTabletDevice}/>
+      <Team isTabletDevice={isTabletDevice}/>
+      <Metrics isTabletDevice={isTabletDevice}/>
+      <ContactUs isTabletDevice={isTabletDevice}/>
 
       <Footer/>
     </div>

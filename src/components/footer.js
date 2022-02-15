@@ -19,6 +19,8 @@ function Footer() {
                   the above form, we would be more that happy to ablige
                 </p>
               </div>
+              <div className="footlists">
+
               <ul>
                 <li>lkajlj</li>
                 <li>lkajlj</li>
@@ -31,6 +33,7 @@ function Footer() {
                 <li>lkajlj</li>
                 <li>lkajlj</li>
               </ul>
+              </div>
 
             </div>
 

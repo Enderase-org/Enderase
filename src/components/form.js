@@ -15,7 +15,7 @@ function Form() {
 
         </div>
         </div>
-        <p><span>Address:</span> 198 West 21th Street, Suite 721 New York NY 10016</p>
+        <p> +251 9876545</p>
       </div>
 
       <div className="squarecontainer">
@@ -24,7 +24,7 @@ function Form() {
 
         </div>
         </div>
-        <p><span>Email:</span> Enderase@gmail.com</p>
+        <p> Enderase@gmail.com</p>
       </div>
 
       <div className="squarecontainer">
@@ -33,7 +33,7 @@ function Form() {
 
         </div>
         </div>
-        <p><span>P.o.Box:</span> 78987/10</p>
+        <p> 78987/10</p>
       </div>
 
       

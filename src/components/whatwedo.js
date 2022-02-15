@@ -15,11 +15,12 @@ function Whatwedo() {
 
       <div className="valuegrid">
 
-      <div className="firstleft">
+      <div className="firstleft valcon">
      <img className="images" src={Personal} alt="txt" />
       </div>
-      <div className="firstright">
+      <div className="firstright valcon">
         <p className="valuetags">Personal</p>
+        <p>
       Lorem Ipsum is simply dummy text of the printing and 
       typesetting industry. Lorem Ipsum has been the industry's
        standard dummy text ever since the 1500s, when an unknown
@@ -29,9 +30,12 @@ function Whatwedo() {
          typesetting, remaining essentially unchanged. 
          It was popularised in the 1960s with the release 
          of Letraset sheets containing Lorem Ipsum passages..
+        </p>
       </div>
-      <div className="secondleft">
+      <div className="secondleft valcon">
       <p className="valuetags">Social</p>
+      <p>
+
       It is a long established fact that a reader will be 
       distracted by the readable content of a page when 
       looking at its layout. The point of using Lorem Ipsum 
@@ -42,15 +46,17 @@ function Whatwedo() {
          Ipsum as their default model text, and a search for 
          'lorem ipsum' will uncover many web sites still in
           their infancy. 
+      </p>
        </div>
-       <div className="secondright">
+       <div className="secondright valcon">
        <img className="images" src={Social} alt="txt"/>
        </div>
-       <div className="thirdleft">
+       <div className="thirdleft valcon">
        <img className="images" src={Economical} alt="txt"/>
        </div>
-       <div className="thirdright">
+       <div className="thirdright valcon">
        <p className="valuetags">Financial</p>
+       <p>
        Contrary to popular belief, Lorem Ipsum is not simply 
        random text. It has roots in a piece of classical Latin
         literature from 45 BC, making it over 2000 years old. 
@@ -59,10 +65,12 @@ function Whatwedo() {
           Latin words, consectetur, from a Lorem Ipsum passage,
            and going through the cites of the word in classical
             literature, discovered the undoubtable source. 
+       </p>
            
        </div>
-       <div className="fourthleft">
+       <div className="fourthleft valcon">
        <p className="valuetags">Political</p>
+       <p>
        There are many variations of passages of Lorem Ipsum
         available, but the majority have suffered alteration 
         in some form, by injected humour, or randomised words
@@ -74,8 +82,9 @@ function Whatwedo() {
               Internet tend to repeat predefined chunks
                as necessary, making this the first true
                 generator on the Internet.
+       </p>
        </div>
-       <div className="fourthright">
+       <div className="fourthright valcon">
        <img className="images" src={Political} alt="txt"/>
        </div>
       </div>

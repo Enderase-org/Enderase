@@ -12,7 +12,7 @@ function Landing({scrolled}) {
   return (
     <section className="Landing" id="home">
         <div className="headcontainer">
-        <img src={EnderaseSVG} height={"500px"} width="800px"/>
+        <img src={EnderaseSVG} className="logo_image" />
         </div>
     </section>
   );

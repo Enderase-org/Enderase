@@ -18,47 +18,73 @@ color:black
     font-size: 30px;
     font-weight: bold;
 }
+
 .valuegrid{
     display:grid;
-    grid-template-columns: 100px 1fr 100px 1fr 100px;
-    grid-template-rows: 40vh 40vh 40vh 40vh ;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8,50vh) ;
 }
-.firstleft{
-    grid-column: 2/4;
-    grid-row:1/2;
+.images{
+    max-height:40vh;
+}
+.valcon{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.valcon p{
+    padding-left:10px;
+}
+.firstleft{  grid-row: 1/2; }
+.firstright{ grid-row: 2/3; }
+.secondleft{ grid-row: 4/5; }
+.secondright{grid-row: 3/4; }
+.thirdleft{  grid-row: 5/6; }
+.thirdright{ grid-row: 6/7; }
+.fourthleft{ grid-row: 8/9; }
+.fourthright{grid-row: 7/8; }
 
-}
-.firstright{
-    grid-column: 4/5;
-    grid-row:1/2;
-}
 
-.secondleft{
-    grid-column: 2/3;
-    grid-row:2/3;
- }
- .secondright{
-    grid-column: 3/5;
-    grid-row:2/3;
+  @media only screen and (min-width:700px){
+    .valuegrid{
+        display:grid;
+        grid-template-columns: 100px 1fr 100px 1fr 100px;
+        grid-template-rows: 40vh 40vh 40vh 40vh ;
+    }
+    .firstleft{
+        grid-column: 2/4;
+        grid-row:1/2;
+    
+    }
+    .firstright{
+        grid-column: 4/5;
+        grid-row:1/2;
+    }
+    
+    .secondleft{
+        grid-column: 2/3;
+        grid-row:2/3;
      }
-
-.thirdleft{
-    grid-column: 2/4;
-    grid-row:3/4;
- }
- .thirdright{
-    grid-column: 4/5;
-    grid-row:3/4;
+     .secondright{
+        grid-column: 3/5;
+        grid-row:2/3;
+         }
+    
+    .thirdleft{
+        grid-column: 2/4;
+        grid-row:3/4;
      }
-.fourthleft{
-    grid-column: 2/3;
-    grid-row:4/5;
- }
- .fourthright{
-    grid-column: 3/5;
-    grid-row:4/5;
- }
- .images{
-     height:40vh;
-     
+     .thirdright{
+        grid-column: 4/5;
+        grid-row:3/4;
+         }
+    .fourthleft{
+        grid-column: 2/3;
+        grid-row:4/5;
+     }
+     .fourthright{
+        grid-column: 3/5;
+        grid-row:4/5;
+     }
  }

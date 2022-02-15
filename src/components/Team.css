@@ -17,19 +17,34 @@
 .imageconatianer{
     /* margin:100px;
     background-color: yellow; */
-    width:900px;
-    height:700px;
+    height:60vh;
+    width:100vw;
     margin-bottom: 0px;
 }
 
 .imageconatianer img{
-    width:900px;
-    height:500px;
-    border-radius: 30px;
+    /* width:900px; */
+    /* height:60vh; */
+    width:100vw;
+    /* border-radius: 30px; */
 }
 .endofimage{
     height:1px;
     width:100px;
     margin-top: 0px;
     border-bottom: 4px solid black;
+}
+@media only screen and (min-width:700px){
+    .imageconatianer{
+        /* margin:100px;
+        background-color: yellow; */
+        width:900px;
+        height:700px;
+        margin-bottom: 0px;
+    }
+    .imageconatianer img{
+    width:900px;
+    height:500px;
+    border-radius: 30px;
+}
 }
