@@ -105,7 +105,6 @@ object-fit: cover;
 }
 
 @media only screen and (min-width:600px){
-
     .circles{
         display: flex;
         margin-left:100px;
@@ -114,12 +113,14 @@ object-fit: cover;
       
     }
     .form{
-        height:110vh;
+        /* height:120vh; */
         max-width:100%;
         width: 100vw;
         background-color: white;
         color:black;
         padding-top:25px;
+        padding-bottom:25px;
+
     }
     .formcontainer{
     display: flex;
@@ -128,7 +129,8 @@ object-fit: cover;
     margin-right:100px;
     border-radius: 10px;
     background-color: lightgray;
-    height:65vh;
+    height:75vh;
+    
 }
 
 .circle{

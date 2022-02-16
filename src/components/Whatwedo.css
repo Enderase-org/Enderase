@@ -22,10 +22,11 @@ color:black
 .valuegrid{
     display:grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(8,50vh) ;
+    grid-template-rows: repeat(8,55vh) ;
 }
 .images{
-    max-height:40vh;
+
+    max-width:95vw;
 }
 .valcon{
     display:flex;
@@ -49,8 +50,8 @@ color:black
   @media only screen and (min-width:700px){
     .valuegrid{
         display:grid;
-        grid-template-columns: 100px 1fr 100px 1fr 100px;
-        grid-template-rows: 40vh 40vh 40vh 40vh ;
+        grid-template-columns: 100px 1fr 80px 1fr 100px;
+        grid-template-rows: 44vh 44vh 44vh 44vh ;
     }
     .firstleft{
         grid-column: 2/4;
@@ -87,4 +88,8 @@ color:black
         grid-column: 3/5;
         grid-row:4/5;
      }
+     .images{
+        max-height:40vh;
+    }
+
  }

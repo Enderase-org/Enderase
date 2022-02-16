@@ -22,16 +22,16 @@ function Footer() {
               <div className="footlists">
 
               <ul>
-                <li>lkajlj</li>
-                <li>lkajlj</li>
-                <li>lkajlj</li>
+                <li>Manual</li>
+                <li>Magazine</li>
+                <li>Our App</li>
 
               </ul>
 
               <ul>
-                <li>Links1</li>
-                <li>lkajlj</li>
-                <li>lkajlj</li>
+                <li>Others</li>
+                <li>Developer</li>
+                <li>About</li>
               </ul>
               </div>
 

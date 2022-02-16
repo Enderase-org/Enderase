@@ -18,9 +18,10 @@ import { useMediaQuery } from 'react-responsive';
 
 function App() {
   const [scrolled,setScrolled] = useState(false);
-  useEffect(()=>{
-    window.addEventListener('scroll',handleScroll)
-  },[])
+  // useEffect(()=>{
+  //   window.addEventListener('scroll',handleScroll)
+  // },[])
+
  const handleScroll = ()=>{
   const offset = window.scrollY;
   console.log("ofset is:",offset)
@@ -29,19 +30,27 @@ function App() {
     if(scrolled!==true)
     setScrolled(true);
   }else{
-    //if(scrolled!==false)
-    setScrolled(false);
+      //if(scrolled!==false)
+      setScrolled(false);
+    }
   }
-  }
-  const particlesInit = (main)=>{
-    console.log(main)
+
+const particlesInit = (main)=>{
+  console.log(main)
 }
 const particlesLoaded = (container)=>{
     console.log(container)
 }
 
 const onScrolled = (e)=>{
-  console.log(e.target.currentScrollY)
+//   // const bottom = e.target.scrollHeight - e.target.scrollTop === e.target.clientHeight;
+//   const bottom = e.target.scrollHeight - e.target.scrollTop > 0;
+    // if (e.target.scrollHeight) { 
+
+      setScrolled(true)
+    //  }
+//  // }
+
  //(e)=>{e.target.currentScrollY
 }
 
@@ -50,10 +59,7 @@ const isTabletDevice = useMediaQuery({
 });
   return (
     <>
-          {
-  scrolled?
-  <>
-  </>:
+   
 
        <Particles id="tsparticles" 
         init={particlesInit} 
@@ -63,12 +69,11 @@ const isTabletDevice = useMediaQuery({
        width="500px"
        height='500px'
        style={{
-    
        }}
       //  height='600'
       //  width='400'
         />
-}
+
 
     <div className="container" onScroll={onScrolled}>
 
@@ -88,3 +93,11 @@ const isTabletDevice = useMediaQuery({
 
 export default App;
 
+/*
+       {
+  scrolled?
+  <>
+  </>:
+
+  }
+  */

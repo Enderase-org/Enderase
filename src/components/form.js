@@ -1,6 +1,7 @@
 
 import './Form.css';
 import Lion from '../assets/lion.jpg';
+import {AiFillPhone,AiOutlineMail,AiOutlineCodeSandbox,} from 'react-icons/ai'
 function Form() {
   return (
     <section className="form" id="form">
@@ -12,7 +13,7 @@ function Form() {
       <div className="squarecontainer">
         <div className="containerhead">
         <div className="circle">
-
+        <AiFillPhone color="white" size={22} />
         </div>
         </div>
         <p> +251 9876545</p>
@@ -21,7 +22,7 @@ function Form() {
       <div className="squarecontainer">
       <div className="containerhead">
         <div className="circle">
-
+        <AiOutlineMail color="white" size={22} />
         </div>
         </div>
         <p> Enderase@gmail.com</p>
@@ -30,7 +31,7 @@ function Form() {
       <div className="squarecontainer">
       <div className="containerhead">
         <div className="circle">
-
+        <AiOutlineCodeSandbox color="white" size={22} />
         </div>
         </div>
         <p> 78987/10</p>
