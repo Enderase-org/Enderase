@@ -1,3 +1,20 @@
+@property --num{
+    syntax: "<integer>";
+    initial-value:0;
+    inherits:false;
+}
+.mydiv{
+    transition: --num 5s;
+    counter-set: num var(--num);
+    font: 800 40px system-ui;
+}
+
+.mydiv::after{
+    content: counter(num);
+}
+.mydiv:hover{
+    --num:100;
+}
 .Metrics{
     width:100vw;
     background-color: gray;

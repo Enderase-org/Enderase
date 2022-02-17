@@ -22,16 +22,16 @@ function Footer() {
               <div className="footlists">
 
               <ul>
-                <li>Manual</li>
-                <li>Magazine</li>
-                <li>Our App</li>
+                <li><a href="#manual">Manual</a></li>
+                <li><a href="#magazine">Magazine</a></li>
+                <li><a href="#app">Our App</a></li>
 
               </ul>
 
               <ul>
-                <li>Others</li>
-                <li>Developer</li>
-                <li>About</li>
+                <li><a href="#others">Others</a></li>
+                <li><a href="#developer">Developer</a></li>
+                <li><a href="#about">About</a></li>
               </ul>
               </div>
 
@@ -46,11 +46,11 @@ function Footer() {
             </p>
           <IconContext.Provider value={{style:{fontSize:'25px',color:"#fff"}}}>
             <ul>
-              <li className="circle"> <Fb/> </li>
-              <li className="circle"> <Gram/> </li>
-              <li className="circle"> <Tik/> </li>
-              <li className="circle"> <Wapp/> </li>
-              <li className="circle"> <Insta/> </li>
+              <li className="circle"><a href="#facebook"> <Fb/> </a></li>
+              <li className="circle"><a href="#telegram"> <Gram/> </a></li>
+              <li className="circle"><a href="#tiktok"> <Tik/> </a></li>
+              <li className="circle"><a href="#whatsapp"> <Wapp/> </a></li>
+              <li className="circle"><a href="#instagram"> <Insta/> </a></li>
 
             </ul>
           </IconContext.Provider>

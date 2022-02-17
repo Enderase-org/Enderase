@@ -5,7 +5,7 @@ function Metrics() {
   return (
     <div className="Metrics">
         <div className="metricitems">
-        <p className="numbertext">800 +</p >
+        <p className="numbertext mydiv">800 +</p >
         <p classname="thetext">Members</p>
         </div>
         <div className="metricitems">

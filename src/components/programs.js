@@ -21,7 +21,7 @@ function Programs
   return (
     <div className="Programs">
         <h2>Our Programs</h2>
-        <p>Check us out on telegram.</p>
+        <p>Check us out on  our telegram.</p>
       <div className="thegridcontainer">
         {
             mapitout().map((item,i)=>{

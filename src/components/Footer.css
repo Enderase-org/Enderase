@@ -19,8 +19,7 @@
 .footlists{
     display:flex;
     width:80%;
-    justify-content:space-around;
-    
+    justify-content:space-around;  
 }
 .footend{
     display:flex;
@@ -32,16 +31,14 @@
 }
 .foottext{
     width:80%;
-    
 }
+
 .footend ul{
     
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
     list-style:none;
-
-
 }
 .circle{
     height:50px;
@@ -53,6 +50,11 @@
     border-radius:25px;
     background-color:#333;
     margin-left:30px;
+    transition: background-color 2s ease-out 100ms; 
+}
+.circle:hover{
+    cursor:pointer;
+    background-color:whitesmoke;
 }
 
 
