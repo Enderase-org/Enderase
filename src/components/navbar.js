@@ -23,7 +23,7 @@ console.log("is table devfice",isTabletDevice)
   isTabletDevice?
   <ul>
   <li><a href="#home">Home</a></li>
-  <li><a href="#values">Values</a></li>
+  <li><a href="#values">Spheres</a></li>
   <li><a href="#team">Our Team</a></li>
   <li><a href="#form">Contact Us</a></li>
 </ul>:
@@ -35,7 +35,7 @@ expanded?
 
     <ul>
       <li><a href="#home">Home</a></li>
-      <li><a href="#values">Values</a></li>
+      <li><a href="#values">Spheres</a></li>
       <li><a href="#team">Our Team</a></li>
       <li><a href="#form">Contact Us</a></li>
     </ul>

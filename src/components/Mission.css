@@ -1,0 +1,97 @@
+.Mission{
+    background-color: white;
+    color:black;
+}
+.missionstatment{
+    display:flex;
+    align-items: center;
+    flex-direction:column;
+    padding:15px;
+    padding-bottom:0px;
+}
+.missionstatment{
+
+}
+.valuemain{
+
+}
+.valuescontainer{
+
+width:100vw;
+padding:15px;
+}
+
+ .value{
+height:40vh;
+display:flex;
+justify-content:space-between;
+align-items: center;
+margin-top:15px;
+width:90vw;
+padding:15px;
+border-radius: 10px;
+background-color: white;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+text-align: center;
+
+}
+.value p{
+    font-size: 14px;
+}
+
+ .icon{
+margin-right:15px;
+}
+
+@media only screen and (min-width:600px){
+    .valuemain{
+display:flex;
+justify-content:center;
+}
+    .missionstatment{
+        /* margin-left:100px;
+        margin-right:100px;
+        margin-top:25px; */
+    }
+    .valuescontainer{
+        display:flex;
+        flex-direction:row;
+        justify-content: space-around;
+        /* margin-left:100px;
+        margin-right:100px; */
+        
+        height:60vh;
+        width:90vw;
+        /* background-color:pink; */
+        padding:15px;
+        }
+        
+        .valuescontainer .value{
+        height:100%;
+        width:100%;
+        margin:5px;
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content: space-between;
+       
+       
+        }
+         .valuetext{
+            height:55%;
+        }
+        
+}
+/* transform:rotate(-90deg);
+transform-origin:right top; */
+/* width:100vw; */
+/* display:flex;
+t
+flex-direction:row; */
+/* transform:rotate(90deg);
+transform-origin:right top; */
+    /* overflow-x: scroll;
+    overflow-y:hidden;
+overflow-x: hidden; */
+/* overflow-y:auto;
+overflow-x:hidden; */

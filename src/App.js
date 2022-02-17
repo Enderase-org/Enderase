@@ -4,12 +4,13 @@ import './App.css';
 
 import Landing from './components/landing';
 import WhatWeDo from './components/whatwedo';
+import Mission from './components/mission';
 import Metrics from './components/metrics';
 import Navbar from './components/navbar';
 import Team from './components/team';
 import ContactUs from './components/form';
 import Footer from './components/footer';
-
+import Programs from './components/programs'
 import Particles from 'react-tsparticles';
 import myOptions from './particlesjs-config.json';
 
@@ -79,10 +80,11 @@ const isTabletDevice = useMediaQuery({
 
       <Landing scrolled={scrolled} isTabletDevice={isTabletDevice}/>
       <Navbar scrolled={scrolled} isTabletDevice={isTabletDevice}/>
-
+       <Mission scrolled={scrolled} istabletDevice={isTabletDevice}/>
       <WhatWeDo isTabletDevice={isTabletDevice}/>
-      <Team isTabletDevice={isTabletDevice}/>
       <Metrics isTabletDevice={isTabletDevice}/>
+      <Team isTabletDevice={isTabletDevice}/>
+      <Programs/>
       <ContactUs isTabletDevice={isTabletDevice}/>
 
       <Footer/>
