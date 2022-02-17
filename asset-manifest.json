@@ -1,24 +1,36 @@
 {
   "files": {
-    "main.css": "/Enderase/static/css/main.21d646c1.css",
-    "main.js": "/Enderase/static/js/main.815ab566.js",
+    "main.css": "/Enderase/static/css/main.03b35e60.css",
+    "main.js": "/Enderase/static/js/main.451025cc.js",
     "static/js/787.10069a06.chunk.js": "/Enderase/static/js/787.10069a06.chunk.js",
     "static/media/lion.jpg": "/Enderase/static/media/lion.4e74399ddfd88a0e478c.jpg",
     "static/media/teamedit.jpg": "/Enderase/static/media/teamedit.6098efec709f2422e92a.jpg",
     "static/media/team3.jpg": "/Enderase/static/media/team3.0f03123b3ae8ec1c772a.jpg",
+    "static/media/sitech.jpg": "/Enderase/static/media/sitech.a4e01e52f1fe06d8c7d2.jpg",
+    "static/media/jedgnochachin.jpg": "/Enderase/static/media/jedgnochachin.4be890982a63bc0a4d3c.jpg",
     "static/media/team2.jpg": "/Enderase/static/media/team2.5e9cd4483d2057abdf0e.jpg",
+    "static/media/degzena.jpg": "/Enderase/static/media/degzena.87264333e3307000ef0a.jpg",
+    "static/media/food.jpg": "/Enderase/static/media/food.718d9b49a67174f0eafc.jpg",
+    "static/media/bookclub.jpg": "/Enderase/static/media/bookclub.7e4956ab2993c07c1e21.jpg",
+    "static/media/whoarethey.jpg": "/Enderase/static/media/whoarethey.de800dad269281e0b997.jpg",
+    "static/media/blooddonation.jpg": "/Enderase/static/media/blooddonation.ac8769c52db48e89246c.jpg",
+    "static/media/yimokirut.jpg": "/Enderase/static/media/yimokirut.913b3b0b2274dfd88686.jpg",
     "static/media/Untitled-1.svg": "/Enderase/static/media/Untitled-1.d7d80de5f65158b90cf18a83215049fe.svg",
+    "static/media/ketemenet.jpg": "/Enderase/static/media/ketemenet.56cdc342e4849fb69f75.jpg",
+    "static/media/andsew.jpg": "/Enderase/static/media/andsew.31d60660baf03124edbb.jpg",
+    "static/media/zarema.jpg": "/Enderase/static/media/zarema.ec23ae761985cbc0f823.jpg",
+    "static/media/1to1fund.jpg": "/Enderase/static/media/1to1fund.a9a706a702ae31079079.jpg",
     "static/media/political.png": "/Enderase/static/media/political.1c521ef76ae431c6bea7.png",
     "static/media/social.png": "/Enderase/static/media/social.388a100279b36c33bfb0.png",
     "static/media/personal.png": "/Enderase/static/media/personal.5907cb3759d4a8f8b247.png",
     "static/media/financial.png": "/Enderase/static/media/financial.c11ce8edd96003e1d43f.png",
     "index.html": "/Enderase/index.html",
-    "main.21d646c1.css.map": "/Enderase/static/css/main.21d646c1.css.map",
-    "main.815ab566.js.map": "/Enderase/static/js/main.815ab566.js.map",
+    "main.03b35e60.css.map": "/Enderase/static/css/main.03b35e60.css.map",
+    "main.451025cc.js.map": "/Enderase/static/js/main.451025cc.js.map",
     "787.10069a06.chunk.js.map": "/Enderase/static/js/787.10069a06.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.21d646c1.css",
-    "static/js/main.815ab566.js"
+    "static/css/main.03b35e60.css",
+    "static/js/main.451025cc.js"
   ]
 }
